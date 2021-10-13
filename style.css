@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+div.container{
+    text-align: center;
+}
+div.btn{
+    margin-top: 60px;
+}
+div.btn>#ligar, div.btn>#desligar, div.btn>#quebrar{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    width: 120px;
+    border: none;
+    background-color: #ddd;
+}
+div.btn>#ligar:hover{
+    background-color: aqua;
+}
+div.btn>#desligar:hover{
+    background-color: cadetblue;
+}
+div.btn>#quebrar:hover{
+    background-color: coral;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
